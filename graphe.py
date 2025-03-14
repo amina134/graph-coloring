@@ -2,7 +2,7 @@ class graphe:
      def __init__(self,n):
           self.n=n
           self.mat= [[0 for _ in range(n)] for _ in range(n)]
-          self.tab_couleur=['R','G','B','C']
+          self.tab_couleur=['R','G','B']
           self.tab_res=[0 for _ in range(n)]
 
         
@@ -61,7 +61,7 @@ class graphe:
 
 
 
-n = 5
+n = 4
 obj = graphe(n)
 obj.fill_mat()
 obj.print_mat()
